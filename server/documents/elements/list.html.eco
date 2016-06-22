@@ -439,6 +439,22 @@ themes      : ['Default']
 
   <h2 class="ui dividing header">Variations</h2>
 
+  <div class="example">
+    <h4 class="ui header">Infographic
+      <div class="ui blue label">Tagi-Spezial</div></h4>
+    <p>A list can be displayed in the infographic font instead of the
+      caption font.</p>
+    <div class="ui infographic list">
+      <div class="item">
+        <div class="header">Infografik 1</div>
+        Diese Grafik wird hier beschrieben
+      </div>
+      <div class="item">
+        <div class="header">Eine zweite Infografik</div>
+        Wird auf dieser Zeile beschrieben.
+      </div>
+    </div>
+  </div>
 
   <div class="example">
     <h4 class="ui header">Horizontal</h4>

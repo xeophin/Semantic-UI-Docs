@@ -14,7 +14,14 @@ themes      : ['default', 'GitHub']
 <%- @partial('header') %>
 <link rel="stylesheet/less" type="text/css" href="/src/definitions/elements/segment.less" />
 
-<div class="main ui container">
+<div class="main ui container"  style="background: linear-gradient(135deg,
+#FFFFFF 0%,#F8F8F9 40%, #cce2ff 100%) fixed;">
+
+  <div class="ui warning message">
+    <div class="header">Colour Background</div>
+    <p>Segments use a slightly transparent white background. In order to
+      demonstrate this, this page has been given a coloured background.</p>
+  </div>
 
   <h2 class="ui dividing header">Types</h2>
 
@@ -73,6 +80,41 @@ themes      : ['default', 'GitHub']
       <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
     </div>
     <div class="ui vertical segment">
+      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Vertical Segment Variations <div
+            class="ui blue label">Tagi-Spezial</div></h4>
+    <p>Vertical segments can have different padding levels, depending on
+      your requirements.</p>
+    <div class="ui vertical padded segment">
+      <div class="ui header">Vertical Padded Segment</div>
+      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
+    </div>
+  </div>
+
+  <div class="another example">
+    <div class="ui vertical very padded segment">
+      <div class="ui header">Vertical Very Padded Segment</div>
+      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
+    </div>
+  </div>
+
+  <div class="another example">
+    <div class="ui vertical fitted segment">
+      <div class="ui header">Vertical Fitted Segment</div>
+      <p>For when you want to stay warm and cozy.</p>
+      <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
+    </div>
+  </div>
+
+  <div class="another example">
+    <div class="ui vertical very fitted segment">
+      <div class="ui header">Vertical Very Fitted Segment</div>
+      <p>Very Fitted Segments use the same vertical padding as normal
+        segments.</p>
       <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
     </div>
   </div>

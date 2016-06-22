@@ -1295,8 +1295,7 @@ semantic.ready = function() {
   ;
 
   // main sidebar
-  $menu
-    .sidebar({
+  $menu.sidebar({
       dimPage          : true,
       transition       : 'overlay',
       mobileTransition : 'uncover'
@@ -1304,8 +1303,7 @@ semantic.ready = function() {
   ;
 
   // launch buttons
-  $menu
-    .sidebar('attach events', '.launch.button, .view-ui, .launch.item')
+  $menu.sidebar('attach events', '.launch.button, .view-ui, .launch.item')
   ;
 
   handler.createIcon();
