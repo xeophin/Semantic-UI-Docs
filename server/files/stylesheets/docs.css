@@ -136,6 +136,9 @@ blockquote .author {
   margin-right: 1em;
 }
 
+#example #toc > * {
+  will-change: transform;
+}
 #example #toc > :last-child {
   padding-bottom: 2em;
 }
@@ -977,6 +980,10 @@ blockquote .author {
   width: 175px;
   height: 175px;
 }
+#example .example .annotation.visible + .icon.buttons {
+  margin-top: 1rem;
+}
+
 
 /*******************************
            UI Pages
@@ -1210,6 +1217,9 @@ blockquote .author {
   }
 }
 
+#example .layered.example {
+  z-index: 1;
+}
 
 /*--------------
       Demo
