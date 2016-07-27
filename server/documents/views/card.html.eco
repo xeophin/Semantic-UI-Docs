@@ -542,6 +542,99 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
 
     <h2 class="ui dividing header">Variations</h2>
 
+    <div class="ui blue segment">
+
+        <div class="example">
+            <h4 class="ui header">Text Cards <div
+                    class="ui blue inline label">Tagi-Spezial</div>
+            <!-- /.ui blue inline label --></h4>
+            <p>Text cards will use the serif font. They will also adapt to
+                being displayed in a text container.</p>
+            <div class="ui text container">
+                <div class="ui card">
+                    <div class="content">
+                        <a class="header">Kristy</a>
+                        <div class="meta">
+                            <span class="date">Joined in 2013</span>
+                        </div>
+                        <div class="description">
+                            <p>Kristy is an art director living in New York.
+                                She
+                                is a thorougly enjoyable person.</p>
+                            <p>This is some additional text to show what is
+                                possible with this card variation.</p>
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i class="user icon"></i>
+                            22 Friends
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.ui text container -->
+
+            <div class="ui small dividing header">As «ui text cards»</div>
+            <!-- /.ui small dividing header -->
+            <div class="ui text cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="/images/avatar2/large/kristy.png">
+                    </div>
+                    <div class="content">
+                        <a class="header">Kristy</a>
+                        <div class="meta">
+                            <span class="date">Joined in 2013</span>
+                        </div>
+                        <div class="description">
+                            Kristy is an art director living in New York.
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i class="user icon"></i>
+                            22 Friends
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.ui text cards -->
+        </div>
+
+
+        <div class="example">
+            <h4 class="ui header">Infographic Cards <div
+                    class="ui blue inline label">Tagi-Spezial</div>
+                <!-- /.ui blue inline label --></h4>
+            <p>Infographic cards will use the infographic font. They will also
+                adapt to being displayed in a infographic container.</p>
+            <div class="ui infographic card">
+                <div class="content">
+                    <a class="header">Kristy</a>
+                    <div class="meta">
+                        <span class="date">Joined in 2013</span>
+                    </div>
+                    <div class="description">
+                        <p>Kristy is an art director living in New York.
+                            She
+                            is a thorougly enjoyable person.</p>
+                        <p>This is some additional text to show what is
+                            possible with this card variation.</p>
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i class="user icon"></i>
+                        22 Friends
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.ui blue segment -->
+
     <div class="example">
         <h4 class="ui header">Fluid Card</h4>
         <p>A fluid card takes up the width of its container</p>

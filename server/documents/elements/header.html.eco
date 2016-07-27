@@ -201,6 +201,41 @@ themes      : ['Default', 'Classic', 'Bookish', 'Chubby', 'Material']
     </h5>
   </div>
 
+  <div class="example" data-use-content="true" data-class="sub">
+    <h4 class="ui header">Meta Sub Headers <div
+            class="ui blue inline label">
+      Tagi-Spezial</div></h4>
+    <p>Headers may contain meta data. Meta data behaves similar to sub
+      headers.</p>
+    <h2 class="ui header">
+      Terms and Conditions
+      <div class="sub meta header">Updated in May 2016</div>
+    </h2>
+    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
+  </div>
+  <div class="another example">
+    <h1 class="ui header">
+      H1
+      <div class="sub meta header">Sub Header</div>
+    </h1>
+    <h2 class="ui header">
+      H2
+      <div class="sub meta header">Sub Header</div>
+    </h2>
+    <h3 class="ui header">
+      H3
+      <div class="sub meta header">Sub Header</div>
+    </h3>
+    <h4 class="ui header">
+      H4
+      <div class="sub meta header">Sub Header</div>
+    </h4>
+    <h5 class="ui header">
+      H5
+      <div class="sub meta header">Sub Header</div>
+    </h5>
+  </div>
+
   <h2 class="ui dividing header">States</h2>
 
   <div class="example">
