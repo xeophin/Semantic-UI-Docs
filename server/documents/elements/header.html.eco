@@ -234,6 +234,9 @@ themes      : ['Default', 'Classic', 'Bookish', 'Chubby', 'Material']
       Dividing Header
     </h3>
     <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
+    <div class="ui small infographic dividing header">Infographic Dividing
+      Header</div>
+    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
   </div>
 
 
