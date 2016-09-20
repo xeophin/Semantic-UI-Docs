@@ -7,39 +7,54 @@ title      : 'Test Page'
 type       : 'Library'
 ---
 <div class="ui container">
-<div class="context">
-    <h1>FOOBAR</h1>
-    <p>Loren ipsum<br />dolor sit amet</p>
+<form class="ui form">
+  <div class="fields">
+    <div class="seven wide field">
+      <label>Card Number</label>
+      <div class="ui fluid button" tabindex="0">Submit Order</div>
+    </div>
+    <div class="three wide field">
+      <label>CVC</label>
+      <input type="text" name="card[cvc]" maxlength="3" placeholder="CVC">
+    </div>
+    <div class="six wide field">
+      <label>Expiration</label>
+      <div class="two fields">
+        <div class="field">
+          <select class="ui fluid dropdown" name="card[expire-month]">
+            <option value="">Month</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+        </div>
+        <div class="field">
+          <input type="text" name="card[expire-year]" maxlength="4" placeholder="Year">
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
 </div>
 
-<button class="ui button circular icon">
-    <i class="icon settings"></i>
-</button>
 </div>
 <script>
 $(document).ready(function() {
-$('h1').visibility({
-   type: 'fixed',
-   context: 'div',
-   debug: true
-});
-
-$('button').on('click', function(e) {
-    console.log('should reset');
-  $('h1').visibility('destroy');
-});
-
+  $('.ui.dropdown').dropdown();
 });
 
 </script>
 
 <!-- TEST CSS HERE !-->
 <style type="text/css">
-
-    .container {
-       height: 60px;
-       overflow: scroll;
-       margin-bottom: 20px;
-    }
 
 </style>
