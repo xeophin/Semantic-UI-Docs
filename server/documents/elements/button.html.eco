@@ -51,6 +51,9 @@ themes      : ['Default', 'Classic', 'Basic', 'Bootstrap3', 'Twitter', 'Raised',
     </button>
   </div>
   <div class="another example">
+    <div
+            class="ui left corner grey small label"><i
+            class="thumbs down icon"></i></div>
     <button class="ui secondary button">
       Okay
     </button>
@@ -84,7 +87,11 @@ themes      : ['Default', 'Classic', 'Basic', 'Bootstrap3', 'Twitter', 'Raised',
   </div>
 
   <div class="example" data-class="labeled, left labeled">
-    <h4 class="ui header">Labeled</h4>
+    <h4 class="ui header">Labeled <div
+            class="ui grey label"><i class="thumbs down icon"></i>
+            <!-- /.thumbs down icon -->Nicht
+      empfohlen</div>
+    <!-- /.ui grey label --></h4>
     <p>A button can appear alongside a <a href="/elements/label.html">label</a></p>
     <div class="ui labeled button" tabindex="0">
       <div class="ui button">
@@ -252,7 +259,10 @@ themes      : ['Default', 'Classic', 'Basic', 'Bootstrap3', 'Twitter', 'Raised',
   <h2 class="ui dividing header">Content</h2>
 
   <div class="example" data-class="or">
-    <h4 class="ui header">Conditionals</h4>
+    <h4 class="ui header">Conditionals <div class="ui grey horizontal label">
+      <i class="thumbs down icon"></i>Nicht empfohlen
+      <!-- /.thumb down icon --></div>
+    <!-- /.ui grey horizontal label --></h4>
     <p>Button groups can contain conditionals</p>
     <div class="ui buttons">
       <button class="ui button">Cancel</button>
@@ -339,20 +349,29 @@ themes      : ['Default', 'Classic', 'Basic', 'Bootstrap3', 'Twitter', 'Raised',
   <div class="spaced example" data-class="size">
     <h4 class="ui header">Size</h4>
     <p>A button can have different sizes</p>
+    <h5 class="ui header">Common Sizes</h5>
+
+    <button class="small ui button">
+      Small
+    </button>
+    <button class="large ui button">
+      Large
+    </button>
+    <button class="massive ui button">
+      Massive
+    </button>
+  </div>
+
+  <div class="another example">
+    <h5 class="ui header">Other sizes</h5>
     <button class="mini ui button">
       Mini
     </button>
     <button class="tiny ui button">
       Tiny
     </button>
-    <button class="small ui button">
-      Small
-    </button>
     <button class="medium ui button">
       Medium
-    </button>
-    <button class="large ui button">
-      Large
     </button>
     <button class="big ui button">
       Big
@@ -360,10 +379,8 @@ themes      : ['Default', 'Classic', 'Basic', 'Bootstrap3', 'Twitter', 'Raised',
     <button class="huge ui button">
       Huge
     </button>
-    <button class="massive ui button">
-      Massive
-    </button>
   </div>
+  <!-- /.another example -->
 
   <div class="example">
     <h4 class="ui header">Floated</h4>
