@@ -320,6 +320,7 @@ themes      : ['default', 'GitHub']
       <p>This segment is on bottom</p>
     </div>
   </div>
+
   <div class="another example">
     <h5 class="ui top attached header">
       Dogs
@@ -344,6 +345,57 @@ themes      : ['default', 'GitHub']
       You've reached the end of this content segment!
     </div>
   </div>
+
+    <div class="another example">
+    <div class="ui blue segment">
+      <h5 class="ui top attached header">
+        Dogs
+      </h5>
+      <div class="ui attached segment">
+        <p>Dogs are one type of animal</p>
+      </div>
+      <h5 class="ui attached header">
+        Cats
+      </h5>
+      <div class="ui attached segment">
+        <p>Cats are thought of as being related to dogs, but only humans think this.</p>
+      </div>
+      <h5 class="ui attached header">
+        Lions
+      </h5>
+      <div class="ui attached segment">
+        <p>Humans don't think of lions as being like cats, but they are.</p>
+      </div>
+      <div class="ui bottom attached warning message">
+        <i class="warning icon"></i>
+        You've reached the end of this content segment!
+      </div>
+      </div>
+    </div>
+
+        <div class="another example">
+        <div class="ui inverted grey segment">
+          <h5 class="ui top attached header">
+            Dogs
+          </h5>
+          <div class="ui attached segment">
+            <p>Dogs are one type of animal</p>
+          </div>
+          <h5 class="ui attached header">
+            Cats
+          </h5>
+          <div class="ui attached segment">
+            <p>Cats are thought of as being related to dogs, but only humans think this.</p>
+          </div>
+          <div class="ui attached segment">
+            <p>Humans don't think of lions as being like cats, but they are.</p>
+          </div>
+          <div class="ui bottom attached warning message">
+            <i class="warning icon"></i>
+            You've reached the end of this content segment!
+          </div>
+          </div>
+        </div>
 
   <div class="example">
     <h4 class="ui header">Padded</h4>
