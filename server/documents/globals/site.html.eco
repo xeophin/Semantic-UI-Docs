@@ -397,5 +397,25 @@ themes      : ['Default', 'GitHub', 'Material']
     </tr>
     </tbody>
   </table>
+  
+  <h2 class="ui dividing header">
+    Tages-Anzeiger Typography <div class="ui blue horizontal label">Tagi-Spezial</div>
+    <!-- /.ui blue horizontal label -->
+  </h2>
+  <!-- /.ui dividing header -->
+  
+  <div class="example">
+    <h4 class="ui header">Lead and byline</h4>
+    <div class="ui text container">
+      <div class="ta lead">
+        <p>A section can be marked as a lead, and it will display at 120% text
+          size.</p>
+        <p class="ta author">A line marked with <code>.ta.author</code> will be
+          in italic.</p>
+      </div>
+    </div>
+    <!-- /.ui text container -->
+  </div>
+  <!-- /.example -->
 
 </div>
