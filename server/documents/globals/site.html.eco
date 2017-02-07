@@ -11,12 +11,24 @@ type        : 'UI Global'
 themes      : ['Default', 'GitHub', 'Material']
 
 ---
-<link rel="stylesheet/less" type="text/css" href="/src/definitions/globals/site.less" />
-<link rel="stylesheet/less" type="text/css" href="/src/definitions/elements/button.less" />
-<link rel="stylesheet/less" type="text/css" href="/src/definitions/elements/header.less" />
-<link rel="stylesheet/less" type="text/css" href="/src/definitions/collections/grid.less" />
-<link rel="stylesheet/less" type="text/css" href="/src/definitions/elements/list.less" />
-<link rel="stylesheet/less" type="text/css" href="/src/definitions/modules/sidebar.less" />
+<link rel="stylesheet/less"
+      type="text/css"
+      href="/src/definitions/globals/site.less"/>
+<link rel="stylesheet/less"
+      type="text/css"
+      href="/src/definitions/elements/button.less"/>
+<link rel="stylesheet/less"
+      type="text/css"
+      href="/src/definitions/elements/header.less"/>
+<link rel="stylesheet/less"
+      type="text/css"
+      href="/src/definitions/collections/grid.less"/>
+<link rel="stylesheet/less"
+      type="text/css"
+      href="/src/definitions/elements/list.less"/>
+<link rel="stylesheet/less"
+      type="text/css"
+      href="/src/definitions/modules/sidebar.less"/>
 
 <%- @partial('header') %>
 
@@ -24,11 +36,18 @@ themes      : ['Default', 'GitHub', 'Material']
 
   <h2 class="ui dividing header">Introduction</h2>
 
-  <p>Site is a special global definition which includes baseline parameters which all other elements inherit. In addition to providing global variables defaults, site also provides page styling for content that exists outside of interface elements.</p>
+  <p>Site is a special global definition which includes baseline parameters
+    which all other elements inherit. In addition to providing global variables
+    defaults, site also provides page styling for content that exists outside of
+    interface elements.</p>
 
   <h3 class="ui header">Theming</h3>
 
-  <p>Customizing site variables is an important part of using Semantic UI, to learn more about global site variables visit our <a href="/usage/theming.html">theming guide</a>.</p>
+  <p>Customizing site variables is an important part of using Semantic UI, to
+    learn more about global site variables visit our
+    <a href="/usage/theming.html">theming guide</a>
+    .
+  </p>
 
   <h2 class="ui dividing header">Content</h2>
 
@@ -48,36 +67,94 @@ themes      : ['Default', 'GitHub', 'Material']
     <h4 class="ui header">Page Font</h4>
     <p>A site can specify styles for page content.</p>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel tincidunt eros, nec venenatis ipsum. Nulla hendrerit urna ex, id sagittis mi scelerisque vitae. Vestibulum posuere rutrum interdum. Sed ut ullamcorper odio, non pharetra eros. Aenean sed lacus sed enim ornare vestibulum quis a felis. Sed cursus nunc sit amet mauris sodales tempus. Nullam mattis, dolor non posuere commodo, sapien ligula hendrerit orci, non placerat erat felis vel dui. Cras vulputate ligula ut ex tincidunt tincidunt. Maecenas eget gravida lorem. Nunc nec facilisis risus. Mauris congue elit sit amet elit varius mattis. Praesent convallis placerat magna, a bibendum nibh lacinia non.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel
+      tincidunt eros, nec venenatis ipsum. Nulla hendrerit urna ex, id sagittis
+      mi scelerisque vitae. Vestibulum posuere rutrum interdum. Sed ut
+      ullamcorper odio, non pharetra eros. Aenean sed lacus sed enim ornare
+      vestibulum quis a felis. Sed cursus nunc sit amet mauris sodales tempus.
+      Nullam mattis, dolor non posuere commodo, sapien ligula hendrerit orci,
+      non placerat erat felis vel dui. Cras vulputate ligula ut ex tincidunt
+      tincidunt. Maecenas eget gravida lorem. Nunc nec facilisis risus. Mauris
+      congue elit sit amet elit varius mattis. Praesent convallis placerat
+      magna, a bibendum nibh lacinia non.</p>
 
-    <p>Fusce mollis sagittis elit ut maximus. Nullam blandit lacus sit amet luctus euismod. Duis luctus leo vel consectetur consequat. Phasellus ex ligula, pellentesque et neque vitae, elementum placerat eros. Proin eleifend odio nec velit lacinia suscipit. Morbi mollis ante nec dapibus gravida. In tincidunt augue eu elit porta, vel condimentum purus posuere. Maecenas tincidunt, erat sed elementum sagittis, tortor erat faucibus tellus, nec molestie mi purus sit amet tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a tincidunt metus. Fusce congue metus aliquam ex auctor eleifend.</p>
-    <p>Ut imperdiet dignissim feugiat. Phasellus tristique odio eu justo dapibus, nec rutrum ipsum luctus. Ut posuere nec tortor eu ullamcorper. Etiam pellentesque tincidunt tortor, non sagittis nibh pretium sit amet. Sed neque dolor, blandit eu ornare vel, lacinia porttitor nisi. Vestibulum sit amet diam rhoncus, consectetur enim sit amet, interdum mauris. Praesent feugiat finibus quam, porttitor varius est egestas id.</p>
+    <p>Fusce mollis sagittis elit ut maximus. Nullam blandit lacus sit amet
+      luctus euismod. Duis luctus leo vel consectetur consequat. Phasellus ex
+      ligula, pellentesque et neque vitae, elementum placerat eros. Proin
+      eleifend odio nec velit lacinia suscipit. Morbi mollis ante nec dapibus
+      gravida. In tincidunt augue eu elit porta, vel condimentum purus posuere.
+      Maecenas tincidunt, erat sed elementum sagittis, tortor erat faucibus
+      tellus, nec molestie mi purus sit amet tellus. Pellentesque habitant morbi
+      tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a
+      tincidunt metus. Fusce congue metus aliquam ex auctor eleifend.</p>
+    <p>Ut imperdiet dignissim feugiat. Phasellus tristique odio eu justo
+      dapibus, nec rutrum ipsum luctus. Ut posuere nec tortor eu ullamcorper.
+      Etiam pellentesque tincidunt tortor, non sagittis nibh pretium sit amet.
+      Sed neque dolor, blandit eu ornare vel, lacinia porttitor nisi. Vestibulum
+      sit amet diam rhoncus, consectetur enim sit amet, interdum mauris.
+      Praesent feugiat finibus quam, porttitor varius est egestas id.</p>
 
   </div>
 
   <div class="example">
     <h4 class="ui header">Text Selection</h4>
     <p>A site can specify text selection styles.</p>
-    <div class="ui message ignored">Highlight the text below with your cursor to see a demonstration</div>
+    <div class="ui message ignored">Highlight the text below with your cursor to
+      see a demonstration
+    </div>
 
-    <p>Fusce mollis sagittis elit ut maximus. Nullam blandit lacus sit amet luctus euismod. Duis luctus leo vel consectetur consequat. Phasellus ex ligula, pellentesque et neque vitae, elementum placerat eros. Proin eleifend odio nec velit lacinia suscipit. Morbi mollis ante nec dapibus gravida. In tincidunt augue eu elit porta, vel condimentum purus posuere. Maecenas tincidunt, erat sed elementum sagittis, tortor erat faucibus tellus, nec molestie mi purus sit amet tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a tincidunt metus. Fusce congue metus aliquam ex auctor eleifend.</p>
+    <p>Fusce mollis sagittis elit ut maximus. Nullam blandit lacus sit amet
+      luctus euismod. Duis luctus leo vel consectetur consequat. Phasellus ex
+      ligula, pellentesque et neque vitae, elementum placerat eros. Proin
+      eleifend odio nec velit lacinia suscipit. Morbi mollis ante nec dapibus
+      gravida. In tincidunt augue eu elit porta, vel condimentum purus posuere.
+      Maecenas tincidunt, erat sed elementum sagittis, tortor erat faucibus
+      tellus, nec molestie mi purus sit amet tellus. Pellentesque habitant morbi
+      tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a
+      tincidunt metus. Fusce congue metus aliquam ex auctor eleifend.</p>
 
   </div>
   <div class="example">
     <h4 class="ui header">Spacing</h4>
     <p>A site can define default spacing for headers and paragraphs</p>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel tincidunt eros, nec venenatis ipsum. Nulla hendrerit urna ex, id sagittis mi scelerisque vitae. Vestibulum posuere rutrum interdum. Sed ut ullamcorper odio, non pharetra eros. Aenean sed lacus sed enim ornare vestibulum quis a felis. Sed cursus nunc sit amet mauris sodales tempus. Nullam mattis, dolor non posuere commodo, sapien ligula hendrerit orci, non placerat erat felis vel dui. Cras vulputate ligula ut ex tincidunt tincidunt. Maecenas eget gravida lorem. Nunc nec facilisis risus. Mauris congue elit sit amet elit varius mattis. Praesent convallis placerat magna, a bibendum nibh lacinia non.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel
+      tincidunt eros, nec venenatis ipsum. Nulla hendrerit urna ex, id sagittis
+      mi scelerisque vitae. Vestibulum posuere rutrum interdum. Sed ut
+      ullamcorper odio, non pharetra eros. Aenean sed lacus sed enim ornare
+      vestibulum quis a felis. Sed cursus nunc sit amet mauris sodales tempus.
+      Nullam mattis, dolor non posuere commodo, sapien ligula hendrerit orci,
+      non placerat erat felis vel dui. Cras vulputate ligula ut ex tincidunt
+      tincidunt. Maecenas eget gravida lorem. Nunc nec facilisis risus. Mauris
+      congue elit sit amet elit varius mattis. Praesent convallis placerat
+      magna, a bibendum nibh lacinia non.</p>
 
-    <p>Fusce mollis sagittis elit ut maximus. Nullam blandit lacus sit amet luctus euismod. Duis luctus leo vel consectetur consequat. Phasellus ex ligula, pellentesque et neque vitae, elementum placerat eros. Proin eleifend odio nec velit lacinia suscipit. Morbi mollis ante nec dapibus gravida. In tincidunt augue eu elit porta, vel condimentum purus posuere. Maecenas tincidunt, erat sed elementum sagittis, tortor erat faucibus tellus, nec molestie mi purus sit amet tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a tincidunt metus. Fusce congue metus aliquam ex auctor eleifend.</p>
+    <p>Fusce mollis sagittis elit ut maximus. Nullam blandit lacus sit amet
+      luctus euismod. Duis luctus leo vel consectetur consequat. Phasellus ex
+      ligula, pellentesque et neque vitae, elementum placerat eros. Proin
+      eleifend odio nec velit lacinia suscipit. Morbi mollis ante nec dapibus
+      gravida. In tincidunt augue eu elit porta, vel condimentum purus posuere.
+      Maecenas tincidunt, erat sed elementum sagittis, tortor erat faucibus
+      tellus, nec molestie mi purus sit amet tellus. Pellentesque habitant morbi
+      tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a
+      tincidunt metus. Fusce congue metus aliquam ex auctor eleifend.</p>
 
-    <p>Ut imperdiet dignissim feugiat. Phasellus tristique odio eu justo dapibus, nec rutrum ipsum luctus. Ut posuere nec tortor eu ullamcorper. Etiam pellentesque tincidunt tortor, non sagittis nibh pretium sit amet. Sed neque dolor, blandit eu ornare vel, lacinia porttitor nisi. Vestibulum sit amet diam rhoncus, consectetur enim sit amet, interdum mauris. Praesent feugiat finibus quam, porttitor varius est egestas id.</p>
+    <p>Ut imperdiet dignissim feugiat. Phasellus tristique odio eu justo
+      dapibus, nec rutrum ipsum luctus. Ut posuere nec tortor eu ullamcorper.
+      Etiam pellentesque tincidunt tortor, non sagittis nibh pretium sit amet.
+      Sed neque dolor, blandit eu ornare vel, lacinia porttitor nisi. Vestibulum
+      sit amet diam rhoncus, consectetur enim sit amet, interdum mauris.
+      Praesent feugiat finibus quam, porttitor varius est egestas id.</p>
   </div>
 
   <div class="example">
     <h4 class="ui header">Links</h4>
     <p>A site can define link font formatting.</p>
-    <p>Ut imperdiet dignissim feugiat. Phasellus tristique odio eu justo dapibus, nec rutrum ipsum luctus. Ut posuere nec tortor eu ullamcorper. <a href="#link">Etiam pellentesque</a> tincidunt tortor, non sagittis nibh pretium sit amet.</p>
+    <p>Ut imperdiet dignissim feugiat. Phasellus tristique odio eu justo
+      dapibus, nec rutrum ipsum luctus. Ut posuere nec tortor eu ullamcorper.
+      <a href="#link">Etiam pellentesque</a>
+      tincidunt tortor, non sagittis nibh pretium sit amet.
+    </p>
     <div class="ui bulleted list">
       <a class="item" href="#link">List Link</a>
       <a class="item" href="#link">List Link</a>
@@ -102,7 +179,15 @@ themes      : ['Default', 'GitHub', 'Material']
         <div class="content">
           <a class="ui header" href="#link">Link Header</a>
           <div class="description">
-            <p>Ut imperdiet dignissim feugiat. Phasellus tristique odio eu justo dapibus, nec rutrum ipsum luctus. Ut posuere nec tortor eu ullamcorper. <a href="#link">Etiam pellentesque</a> tincidunt tortor, non sagittis nibh pretium sit amet. Sed neque dolor, blandit eu ornare vel, lacinia porttitor nisi. Vestibulum sit amet diam rhoncus, consectetur enim sit amet, interdum mauris. Praesent feugiat finibus quam, porttitor varius est egestas id.</p>
+            <p>Ut imperdiet dignissim feugiat. Phasellus tristique odio eu justo
+              dapibus, nec rutrum ipsum luctus. Ut posuere nec tortor eu
+              ullamcorper.
+              <a href="#link">Etiam pellentesque</a>
+              tincidunt tortor, non sagittis nibh pretium sit amet. Sed neque
+              dolor, blandit eu ornare vel, lacinia porttitor nisi. Vestibulum
+              sit amet diam rhoncus, consectetur enim sit amet, interdum mauris.
+              Praesent feugiat finibus quam, porttitor varius est egestas id.
+            </p>
           </div>
         </div>
       </div>
@@ -113,7 +198,15 @@ themes      : ['Default', 'GitHub', 'Material']
         <div class="content">
           <a class="ui header" href="#link">Link Header</a>
           <div class="description">
-            <p>Ut imperdiet dignissim feugiat. Phasellus tristique odio eu justo dapibus, nec rutrum ipsum luctus. Ut posuere nec tortor eu ullamcorper. <a href="#link">Etiam pellentesque</a> tincidunt tortor, non sagittis nibh pretium sit amet. Sed neque dolor, blandit eu ornare vel, lacinia porttitor nisi. Vestibulum sit amet diam rhoncus, consectetur enim sit amet, interdum mauris. Praesent feugiat finibus quam, porttitor varius est egestas id.</p>
+            <p>Ut imperdiet dignissim feugiat. Phasellus tristique odio eu justo
+              dapibus, nec rutrum ipsum luctus. Ut posuere nec tortor eu
+              ullamcorper.
+              <a href="#link">Etiam pellentesque</a>
+              tincidunt tortor, non sagittis nibh pretium sit amet. Sed neque
+              dolor, blandit eu ornare vel, lacinia porttitor nisi. Vestibulum
+              sit amet diam rhoncus, consectetur enim sit amet, interdum mauris.
+              Praesent feugiat finibus quam, porttitor varius est egestas id.
+            </p>
           </div>
         </div>
       </div>
@@ -162,30 +255,36 @@ themes      : ['Default', 'GitHub', 'Material']
     </div>
     <table class="ui definition table">
       <thead>
-        <th></th>
-        <th>Header 1</th>
-        <th>Header 2</th>
+      <th></th>
+      <th>Header 1</th>
+      <th>Header 2</th>
       </thead>
       <tbody>
-        <tr>
-          <td>Definition</td>
-          <td>1A</td>
-          <td>1B</td>
-        </tr>
-        <tr>
-          <td>Definition</td>
-          <td>2A</td>
-          <td>2B</td>
-        </tr>
+      <tr>
+        <td>Definition</td>
+        <td>1A</td>
+        <td>1B</td>
+      </tr>
+      <tr>
+        <td>Definition</td>
+        <td>2A</td>
+        <td>2B</td>
+      </tr>
       </tbody>
     </table>
   </div>
 
   <div class="example">
     <h4 class="ui header">Size</h4>
-    <p>A site can define a root em size, used for providing relative sizes for the rest of a site's content</p>
+    <p>A site can define a root em size, used for providing relative sizes for
+      the rest of a site's content</p>
     <div class="ui ignored info message">
-      <code>em</code> and <code>rem</code> are special units used to provide relative measurements for elements. <code>1em</code> defines what baseline size, <code>medium</code>, is for UI elements. Most elements are sized in <code>rem</code> which are affected by this value, however some UI can also be defined using <code>em</code> which will be based on the surrounding font size of the parent element.</p>
+      <code>em</code> and <code>rem</code> are special units used to provide
+      relative measurements for elements. <code>1em</code> defines what baseline
+      size, <code>medium</code>, is for UI elements. Most elements are sized in
+      <code>rem</code> which are affected by this value, however some UI can
+      also be defined using <code>em</code> which will be based on the
+      surrounding font size of the parent element.</p>
     </div>
 
     <h3 class="ui header">Examples of Absolutely Sized UI</h3>
@@ -211,5 +310,92 @@ themes      : ['Default', 'GitHub', 'Material']
       </div>
     </div>
   </div>
+
+  <h2 class="ui dividing header">Visibility
+    <div class="ui blue horizontal label">Tagi-Spezial</div>
+  </h2>
+  <p>Additional classes have been added to provide better control over the
+    visibility of objects.</p>
+
+  <table class="ui celled definition table">
+    <thead>
+    <tr>
+      <th>Width</th>
+      <th>Classes with which object is hidden</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>up to 600px</td>
+      <td>
+        <div class="ui compact list">
+          <div class="item">mobile hidden</div>
+          <div class="item">tablet only</div>
+          <div class="item">computer only</div>
+          <div class="item">large screen only</div>
+          <div class="item">widescreen only</div>
+          <div class="item">or lower hidden</div>
+          <!-- /.item -->
+        </div>
+        <!-- /.ui compact list -->
+      </td>
+    </tr>
+    <tr>
+      <td>600–900px</td>
+      <td><div class="ui compact list">
+          <div class="item">mobile only</div>
+          <div class="item">tablet hidden</div>
+          <div class="item">computer only</div>
+          <div class="item">large screen only</div>
+          <div class="item">widescreen only</div>
+          <div class="item">tablet or lower hidden</div>
+          <!-- /.item -->
+        </div>
+      <!-- /.ui compact list --></td>
+    </tr>
+    <tr>
+      <td>900–1200px</td>
+      <td>
+        <div class="ui compact list">
+          <div class="item">mobile only</div>
+          <div class="item">tablet only</div>
+          <div class="item">computer hidden</div>
+          <div class="item">large screen only</div>
+          <div class="item">widescreen only</div>
+          <div class="item">computer or lower hidden</div>
+          <!-- /.item -->
+        </div>
+        <!-- /.ui compact list --></td>
+    </tr>
+    <tr>
+      <td>1200–1800px</td>
+      <td>
+        <div class="ui compact list">
+          <div class="item">mobile only</div>
+          <div class="item">tablet only</div>
+          <div class="item">computer only</div>
+          <div class="item">large screen hidden</div>
+          <div class="item">widescreen only</div>
+          <div class="item">large screen or lower hidden</div>
+          <!-- /.item -->
+        </div>
+        <!-- /.ui compact list --></td>
+    </tr>
+    <tr>
+      <td>> 1800px</td>
+      <td>
+        <div class="ui compact list">
+          <div class="item">mobile only</div>
+          <div class="item">tablet only</div>
+          <div class="item">computer only</div>
+          <div class="item">large screen only</div>
+          <div class="item">widescreen hidden</div>
+          <div class="item">widesceen or lower hidden</div>
+          <!-- /.item -->
+        </div>
+        <!-- /.ui compact list --></td>
+    </tr>
+    </tbody>
+  </table>
 
 </div>
