@@ -342,7 +342,8 @@ themes      : ['Default', 'GitHub', 'Material']
     </tr>
     <tr>
       <td>600–900px</td>
-      <td><div class="ui compact list">
+      <td>
+        <div class="ui compact list">
           <div class="item">mobile only</div>
           <div class="item">tablet hidden</div>
           <div class="item">computer only</div>
@@ -351,7 +352,7 @@ themes      : ['Default', 'GitHub', 'Material']
           <div class="item">tablet or lower hidden</div>
           <!-- /.item -->
         </div>
-      <!-- /.ui compact list --></td>
+        <!-- /.ui compact list --></td>
     </tr>
     <tr>
       <td>900–1200px</td>
@@ -397,13 +398,14 @@ themes      : ['Default', 'GitHub', 'Material']
     </tr>
     </tbody>
   </table>
-  
+
   <h2 class="ui dividing header">
-    Tages-Anzeiger Typography <div class="ui blue horizontal label">Tagi-Spezial</div>
+    Tages-Anzeiger Typography
+    <div class="ui blue horizontal label">Tagi-Spezial</div>
     <!-- /.ui blue horizontal label -->
   </h2>
   <!-- /.ui dividing header -->
-  
+
   <div class="example">
     <h4 class="ui header">Lead and byline</h4>
     <div class="ui text container">
@@ -415,6 +417,47 @@ themes      : ['Default', 'GitHub', 'Material']
       </div>
     </div>
     <!-- /.ui text container -->
+  </div>
+  <!-- /.example -->
+
+  <div class="example">
+    <h4 class="ui header">Interviews</h4>
+
+    <div class="ui text container ta interview">
+      <p class="ta interview question">This is a interview question</p>
+      <p class="ta interview">Which, is, of course, answered truthfully.</p>
+
+      <p class="ta interview question">We continue the questioning?</p>
+      <p>Of course, it's pretty easy to add additional points, which will
+        elaborate on the current topic. If we enclose the whole container in
+        <code>.ta.interview</code>, we only need to mark the questions
+        differently.</p>
+      <!-- /.ta interview question -->
+      <!-- /.ta interview -->
+      <!-- /.ta interview question -->
+    </div>
+    <!-- /.ui text container -->
+
+    <!-- /.ui header -->
+  </div>
+  <!-- /.example -->
+
+  <div class="example">
+    <h4 class="ui header">Captions</h4>
+    <!-- /.ui header -->
+
+    <p class="ta caption">This is a small caption, that might be used under an
+      image</p>
+
+    <p class="ta small caption">This is a very small caption.</p>
+
+    <p class="ta secondary caption">Or a subtle caption.</p>
+
+    <p class="ta tertiary small caption">This might be the epitomy of
+      subtleness.</p>
+    <!-- /.ta tertiary small caption -->
+
+
   </div>
   <!-- /.example -->
 
