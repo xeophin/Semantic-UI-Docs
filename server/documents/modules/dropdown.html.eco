@@ -2348,7 +2348,7 @@ themes      : ['Default', 'GitHub', 'Material']
               <div class="description">Dropdown menu is hidden</div>
             </div>
             <div class="item">
-              <div class="header">function(text, value){}</div>
+              <div class="header">function(text, value, element){}</div>
               <div class="description">custom function is executed with values specified in callback</div>
             </div>
           </div>
@@ -2707,6 +2707,10 @@ themes      : ['Default', 'GitHub', 'Material']
         <tr>
           <td>message</td>
           <td colspan="2">
+            <p>
+              You can specify site wide messages by modifying <code>$.fn.dropdown.settings.message</code>
+              that will apply on any dropdown if it appears in the page.
+            </p>
             <div class="code">
             message: {
               addResult     : 'Add <b>{term}</b>',
