@@ -256,9 +256,19 @@ themes      : ['Default', 'Classic', 'Bookish', 'Chubby', 'Material']
     the standard serif font.</p>
     <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
     <h3 class="ui infographic header">
-      Infographic Header
+      H3 Infographic Header
     </h3>
     <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
+    <div class="ui huge infographic header">
+      Huge Infographic Header
+      <div class="sub header">And a sub header</div>
+    </div>
+    <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">
+    <div class="ui large infographic header">
+      Large Infographic Header
+      <div class="sub header">And a sub header</div>
+    </div>
+    <div class="ui medium infographic header">Medium Infographic Header</div>
   </div>
 
   <div class="example">
@@ -361,6 +371,14 @@ themes      : ['Default', 'Classic', 'Bookish', 'Chubby', 'Material']
       Inverted headers use modified light versions of your site's color scheme that are adapted to have more contrast on dark background
     </div>
     <div class="ui inverted segment">
+      <h3 class="ui inverted header">Standard inverted header
+      <div class="sub header">With Sub Header</div>
+      <!-- /.sub header --></h3>
+      <!-- /.ui inverted header -->
+      <h2 class="ui inverted infographic header">
+        Inverted Infographic Header
+      </h2>
+      <!-- /.ui inverted large infographic header -->
       <h4 class="ui red inverted header">Red</h4>
       <h4 class="ui orange inverted header">Orange</h4>
       <h4 class="ui yellow inverted header">Yellow</h4>
