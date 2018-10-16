@@ -1,57 +1,40 @@
 # Semantic Docs
 
-This folder contains the templates used to generate the static website for [semantic-ui.com](http://www.semantic-ui.com)
+This folder contains the templates used to generate the static website for [semantic-ui.com](http://www.semantic-ui.com). 
 
-## How to Use
+This repo can be used to create a fork of the UI documents to serve as styleguide for your project.
+
+### Installing Dependencies
 
 
-To install [DocPad](http://github.com/docpad/docpad), the static site generator used to create the HTML for the site.
+You must install [DocPad](http://github.com/docpad/docpad), the static site generator used to create the HTML for the site, to render the contents of this repository.
 ```
 npm install -g docpad
 docpad install eco;
 docpad update; docpad upgrade;
 ```
 
-### Generating SUI for Docs
+### Generating Semantic UI for Docs
 
-Before running the server, you will need to build your UI files for the docs. 
+Assuming two sibling folders:
 
-First, be sure your docs are in the right location.  
-For example, if your Semantic UI folder is under `vendor/`, like this...
+1. UI folder ./ui
+2. Docs folder ./docs
 
-    vendor/
-        SemanticUI/
-        ...
-        ...
-
-Then you should put `docs/` under `vendor/`, so it looks like this:
-
-    vendor/
-        docs/
-        SemanticUI/
-        ...
-        ...
-
-If you haven't run `npm install` in your `./SemanticUI` folder yet, do that now. Next, run the commands to build the docs:
-
-```
-# "ui" can be any folder that contains the SUI build files
-cd ./ui
-gulp build-docs
-```
-
-By default, docs build to `build-docs/` (from the adjacent folder `docs/`). 
-**The command _must_ be run from your UI folder!** (In the above example, we use `./ui`.) 
-
-To configure a different `docs` location, modify [ `tasks/config/docs.js`](https://github.com/Semantic-Org/Semantic-UI/blob/master/tasks/config/docs.js) accordingly.
-
+* Clone both repos to respective folders
+* npm install in both directories
+* Go through Semantic UI installer steps (auto)
+* In `./ui` folder `gulp build-docs` (builds files to ./docs)
+* In `./docs` folder `docpad install` then `docpad run`
+* Go to http://localhost:9778/ docs should be there
+* Optionally run `gulp serve-docs` in ./ui to serve any changes from ./ui/src to ./docs
 
 ### Running the Server
 
 Start the docs server (and generate docs):
 
 ```
-# run from inside docs folder that will now contain the compiled docs 
+# run from inside docs folder that will now contain the compiled docs
 # windows users can then navigate to http://localhost:9778
 docpad run
 ```
@@ -61,6 +44,13 @@ Watch for changes from your UI folder, and serve to the docs instance:
 
 ```
 gulp serve-docs
+```
+
+### Publishing to GitHub Pages
+
+You can publish your docs to GitHub Pages from the command line automatically
+```
+docpad deploy-ghpages --env static
 ```
 
 

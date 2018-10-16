@@ -50,7 +50,7 @@ themes      : ['Default']
       <h4 class="ui header">HTML</h4>
       <p>An element can specify HTML for a popup</p>
 
-      <div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='icon'></i><i class='icon'></i></div></div>">
+      <div class="ui card" data-html="<div class='header'>User Rating</div><div class='content'><div class='ui star rating'><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i><i class='active icon'></i></div></div>">
         <div class="image">
           <img src="/images/movies/totoro-horizontal.jpg">
         </div>
@@ -112,7 +112,7 @@ themes      : ['Default']
       </h4>
       <p>An element can specify a simple tooltip that can appear without javascript</p>
       <div class="ui warning ignored message">
-        Tooltips use an element's <code>:before</code> and <code>:after</code> psuedo classes. Elements like <code>icon</code> that already use these classes for styling will need to have the tooltips to a wrapping element, like a button, or a <code>span</code> to make sure tooltips work correctly.
+        Tooltips use an element's <code>:before</code> and <code>:after</code> pseudo classes. Elements like <code>icon</code> that already use these classes for styling will need to have the tooltips to a wrapping element, like a button, or a <code>span</code> to make sure tooltips work correctly.
       </div>
       <div class="ui icon button" data-tooltip="Add users to your feed">
         <i class="add icon"></i>
@@ -764,6 +764,11 @@ themes      : ['Default']
             200
           </td>
           <td>Duration of animation events</td>
+        </tr>
+        <tr>
+          <td>arrowPixelsFromEdge <div class="ui teal label">New in 2.3</div></td>
+          <td>20</td>
+          <td>When a target element is less than 2x this amount, the popup will appear with the arrow centered on the target element, instead of with the popup edge matching the target's edge.</td>
         </tr>
         <tr>
           <td>setFluidWidth</td>

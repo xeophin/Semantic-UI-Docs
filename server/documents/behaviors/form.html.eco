@@ -28,7 +28,7 @@ type        : 'UI Behavior'
       <h4 class="ui header">Specifying Validation Rules</h4>
       <p>Form validation requires passing in a validation object with the rules required to validate your form.</p>
       <div class="ui ignored info message">
-        A validation object includes a list of form elements, and rules to validate each field against. Fields are matched by either the <code>id</code>, <code>name</code>, or <code>data-validate</code>  property matching the identifier specified in the settings object. Validation objects must use either shorthand or longhand exclusively.
+        A validation object includes a list of form elements, and rules to validate each field against. Fields are matched by either the <code>id</code>, <code>name</code>, or <code>data-validate</code> property (in that order) matching the identifier specified in the settings object. Validation objects must use either shorthand or longhand exclusively.
       </div>
       <div class="ignore code" data-title="Shorthand Validation">
       $('.ui.form')
@@ -189,6 +189,7 @@ type        : 'UI Behavior'
     <div class="prompt example">
       <h4 class="ui header">Customizing Prompts</h4>
       <p>Form validation includes default error prompts for most cases, however these can be quite generic. To specify custom personalized values for a validation prompt use the <code>prompt</code> property with a rule.</p>
+      <div class="ui ignored info message">Starting in <div class="ui teal label">2.3.1</div> you can specify prompts as a function. This may be useful when returning validation for fields that require dynamic validation messages.</div>
       <div class="ui ignored info message">You can set default messages for each validation rule type by modifying <code>$fn.form.settings.prompt</code></div>
       <p>Prompt also supports custom templating with the following values replaced</p>
       <table class="ui celled sortable basic table segment">
@@ -229,7 +230,20 @@ type        : 'UI Behavior'
                   prompt : '{name} is set to "{value}" that is totally wrong. It should be {ruleValue}'
                 }
               ]
-            }
+            },
+            field3: {
+              rules: [
+                {
+                  type   : 'exactly[cat]',
+                  prompt : function(value) {
+                    if(value == 'dog') {
+                      return 'I told you to put cat, not dog!';
+                    }
+                    return 'That is not cat';
+                  }
+                }
+              ]
+            },
           }
         })
       ;
@@ -243,6 +257,10 @@ type        : 'UI Behavior'
           <div class="field">
             <label>Field 2</label>
             <input type="text" name="field2">
+          </div>
+          <div class="field">
+            <label>Field 3</label>
+            <input type="text" name="field3">
           </div>
         </div>
         <div class="ui primary submit button">Submit</div>
@@ -312,16 +330,16 @@ type        : 'UI Behavior'
       <div class="ignored code">
       $('.ui.form')
         .form({
-          fields: [
+          fields: {
            email: 'empty',
            name: 'empty'
-          ]
+          }
         })
       ;
       if( $('.ui.form').form('is valid', 'email')) {
         // email is valid
       }
-      if( $('.ui.form').form('is valid') {
+      if( $('.ui.form').form('is valid')) {
         // form is valid (both email and name)
       }
       </div>
@@ -427,7 +445,7 @@ type        : 'UI Behavior'
           </tr>
           <tr>
             <td>doesntContainExactly</td>
-            <td>A field doesn't text (case sensitive)</td>
+            <td>A field doesn't contain text (case sensitive)</td>
             <td><code>doesntContainExactly[foo]</code></td>
           </tr>
           <tr>
@@ -1588,7 +1606,7 @@ type        : 'UI Behavior'
       <p>Adding the parameter <code>optional: true</code> will only add your validation rules when the field is <b>not empty</b>.
       <div class="ignored code">
       $('.ui.form')
-        .form(
+        .form({
           fields: {
             email: {
               identifier : 'email',
@@ -1875,6 +1893,10 @@ type        : 'UI Behavior'
         <td>add errors(errors)</td>
         <td>Adds errors to form, given an array errors</td>
       </tr>
+      <tr>
+        <td>add prompt(id, prompt)</td>
+        <td>Adds a custom user prompt for a given element with id</td>
+      </tr>
     </table>
 
     <h2 class="ui dividing header">Settings</h2>
@@ -2141,7 +2163,7 @@ type        : 'UI Behavior'
           </tr>
           <tr>
             <td>debug</td>
-            <td>True</td>
+            <td>False</td>
             <td>Provides standard debug output to console</td>
           </tr>
           <tr>
@@ -2151,7 +2173,7 @@ type        : 'UI Behavior'
           </tr>
           <tr>
             <td>verbose</td>
-            <td>True</td>
+            <td>False</td>
             <td>Provides ancillary debug output to console</td>
           </tr>
           <tr>

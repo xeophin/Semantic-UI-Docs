@@ -15,8 +15,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
 
 <%- @partial('header') %>
 
-<link rel="stylesheet/less" type="text/css"
-      href="/src/definitions/views/card.less"/>
+<link rel="stylesheet/less" type="text/css" href="/src/definitions/views/card.less" />
 <script src="/javascript/card.js"></script>
 
 <div class="main ui container" style="background: linear-gradient(135deg,
@@ -36,12 +35,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
     <h4 class="ui header">Card</h4>
     <p>A single card.</p>
     <div class="ui ignored warning message">
-            To ensure cards are equal height use the plural, <a
-                href="#cards"><code>cards</code></a>. Card groups automatically
-            uses <a
-                href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes"
-                target="_blank">flex</a> styles to match height between cards in
-            the same row.
+      To ensure cards are equal height use the plural, <a href="#cards"><code>cards</code></a>. Card groups automatically uses <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes" target="_blank">flex</a> styles to match height between cards in the same row.
     </div>
     <div class="ui card">
       <div class="image">
@@ -64,17 +58,14 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
       </div>
     </div>
   </div>
-
   <div class="another example">
     <div class="ui card">
       <div class="content">
         <div class="right floated meta">14h</div>
-                <img class="ui avatar image"
-                     src="/images/avatar/large/elliot.jpg"> Elliot
+        <img class="ui avatar image" src="/images/avatar/large/elliot.jpg"> Elliot
       </div>
       <div class="image">
-                <img class="ui wireframe image"
-                     src="/images/wireframe/image.png">
+        <img class="ui wireframe image" src="/images/wireframe/image.png">
       </div>
       <div class="content">
         <span class="right floated">
@@ -97,15 +88,12 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
     <h4 class="ui header">Cards</h4>
     <p>A group of cards.</p>
     <div class="ui ignored info message">
-            <p>Cards are designed to be flexible to your content.
-                <code>content</code> blocks can include any custom elements
-                related to your content.</p>
+      <p>Cards are designed to be flexible to your content. <code>content</code> blocks can include any custom elements related to your content.</p>
     </div>
     <div class="ui cards">
       <div class="card">
         <div class="content">
-                    <img class="right floated mini ui image"
-                         src="/images/avatar/large/elliot.jpg">
+          <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg">
           <div class="header">
             Elliot Fu
           </div>
@@ -125,8 +113,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
       </div>
       <div class="card">
         <div class="content">
-                    <img class="right floated mini ui image"
-                         src="/images/avatar/large/jenny.jpg">
+          <img class="right floated mini ui image" src="/images/avatar/large/jenny.jpg">
           <div class="header">
             Jenny Hess
           </div>
@@ -235,8 +222,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
           <div class="event">
             <div class="content">
               <div class="summary">
-                                <a>Elliot Fu</a> added <a>Jenny Hess</a> to the
-                                project
+                 <a>Elliot Fu</a> added <a>Jenny Hess</a> to the project
               </div>
             </div>
           </div>
@@ -264,22 +250,16 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
   <div class="example">
     <h4 class="ui header">Image</h4>
     <p>A card can contain an image</p>
-        <div class="ui ignored info message">Cards can use <a
-                href="/elements/reveal.html">reveal</a> or <a
-                href="/modules/dimmer.html">dimmers</a> to easily show
-            additional content, or options on hover
-        </div>
+    <div class="ui ignored info message">Cards can use <a href="/elements/reveal.html">reveal</a> or <a href="/modules/dimmer.html">dimmers</a> to easily show additional content, or options on hover</div>
     <div class="ui card">
       <div class="ui slide masked reveal image">
-                <img src="/images/avatar/large/jenny.jpg"
-                     class="visible content">
-                <img src="/images/avatar/large/elliot.jpg"
-                     class="hidden content">
+        <img src="/images/avatar/large/jenny.jpg" class="visible content">
+        <img src="/images/avatar/large/elliot.jpg" class="hidden content">
       </div>
       <div class="content">
         <a class="header">Team Fu & Hess</a>
         <div class="meta">
-          <span class="date">Create in Sep 2014</span>
+          <span class="date">Created in Sep 2014</span>
         </div>
       </div>
       <div class="extra content">
@@ -311,7 +291,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
         <div class="content">
           <a class="header">Team Fu</a>
           <div class="meta">
-            <span class="date">Create in Sep 2014</span>
+            <span class="date">Created in Sep 2014</span>
           </div>
         </div>
         <div class="extra content">
@@ -335,7 +315,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
         <div class="content">
           <a class="header">Team Hess</a>
           <div class="meta">
-            <span class="date">Create in Aug 2014</span>
+            <span class="date">Created in Aug 2014</span>
           </div>
         </div>
         <div class="extra content">
@@ -366,8 +346,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
           <div class="header">Veronika Ossi</div>
           <div class="meta">Friend</div>
           <div class="description">
-                        Veronika Ossi is a set designer living in New York who
-                        enjoys kittens, music, and partying.
+            Veronika Ossi is a set designer living in New York who enjoys kittens, music, and partying.
           </div>
         </div>
       </div>
@@ -376,8 +355,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
           <div class="header">Jenny Hess</div>
           <div class="meta">Friend</div>
           <div class="description">
-                        Jenny is a student studying Media Management at the New
-                        School
+            Jenny is a student studying Media Management at the New School
           </div>
         </div>
       </div>
@@ -390,8 +368,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
 
     <div class="ui ignored info message">
       <i class="info icon"></i>
-            You can include an arbitrary amount of metadata using your own class
-            conventions, all child elements will automatically be spaced
+      You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced
     </div>
     <div class="ui card">
       <div class="content">
@@ -400,18 +377,15 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
           <span>2 days ago</span>
           <a>Animals</a>
         </div>
-                <img class="ui wireframe image"
-                     src="/images/wireframe/paragraph.png">
+        <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
       </div>
     </div>
   </div>
 
   <div class="example">
     <h4 class="ui header">Link</h4>
-        <p>A card can contain contain links as images, headers, or inside
-            content</p>
-        <div class="ui ignored info message">To make the entire content of a
-            card link, check out the link variation below
+    <p>A card can contain contain links as images, headers, or inside content</p>
+    <div class="ui ignored info message">To make the entire content of a card link, check out the link variation below
     </div>
     <div class="ui card">
       <a class="image" href="#">
@@ -445,8 +419,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
         <div class="content">
           <div class="header">Veronika Ossi</div>
           <div class="description">
-                        Veronika Ossi is a set designer living in New York who
-                        enjoys kittens, music, and partying.
+            Veronika Ossi is a set designer living in New York who enjoys kittens, music, and partying.
           </div>
         </div>
         <div class="ui bottom attached button">
@@ -458,8 +431,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
         <div class="content">
           <div class="header">Jenny Hess</div>
           <div class="description">
-                        Jenny is a student studying Media Management at the New
-                        School
+            Jenny is a student studying Media Management at the New School
           </div>
         </div>
         <div class="ui bottom attached button">
@@ -479,8 +451,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
         <i class="right floated star icon"></i>
         <div class="header">Cute Dog</div>
         <div class="description">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/paragraph.png">
+          <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
         </div>
       </div>
       <div class="extra content">
@@ -504,12 +475,8 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
         <div class="header">Cute Dog</div>
         <div class="meta">2 days ago</div>
         <div class="description">
-                    <p>Cute dogs come in a variety of shapes and sizes. Some
-                        cute dogs are cute for their adorable faces, others for
-                        their tiny stature, and even others for their massive
-                        size.</p>
-                    <p>Many people also have their own barometers for what makes
-                        a cute dog.</p>
+          <p>Cute dogs come in a variety of shapes and sizes. Some cute dogs are cute for their adorable faces, others for their tiny stature, and even others for their massive size.</p>
+          <p>Many people also have their own barometers for what makes a cute dog.</p>
         </div>
       </div>
     </div>
@@ -517,19 +484,14 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
 
   <div class="example">
     <h4 class="ui header">Extra Content</h4>
-        <p>A card can contain extra content meant to be formatted separately
-            from the main content</p>
+    <p>A card can contain extra content meant to be formatted separately from the main content</p>
     <div class="ui card">
       <div class="content">
         <div class="header">Cute Dog</div>
         <div class="meta">2 days ago</div>
         <div class="description">
-                    <p>Cute dogs come in a variety of shapes and sizes. Some
-                        cute dogs are cute for their adorable faces, others for
-                        their tiny stature, and even others for their massive
-                        size.</p>
-                    <p>Many people also have their own barometers for what makes
-                        a cute dog.</p>
+          <p>Cute dogs come in a variety of shapes and sizes. Some cute dogs are cute for their adorable faces, others for their tiny stature, and even others for their massive size.</p>
+          <p>Many people also have their own barometers for what makes a cute dog.</p>
         </div>
       </div>
       <div class="extra content">
@@ -695,14 +657,12 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
           <span class="category">Animals</span>
         </div>
         <div class="description">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/paragraph.png">
+          <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
         </div>
       </div>
       <div class="extra content">
         <div class="right floated author">
-                    <img class="ui avatar image"
-                         src="/images/avatar/small/matt.jpg"> Matt
+          <img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Matt
         </div>
       </div>
     </div>
@@ -715,14 +675,12 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
           <span class="category">Animals</span>
         </div>
         <div class="description">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/paragraph.png">
+          <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
         </div>
       </div>
       <div class="extra content">
         <div class="right floated author">
-                    <img class="ui avatar image"
-                         src="/images/avatar/small/matt.jpg"> Matt
+          <img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Matt
         </div>
       </div>
     </div>
@@ -730,8 +688,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
 
   <div class="example">
     <h4 class="ui header">Link Card</h4>
-        <p>A card can be formatted so that the entire contents link to another
-            page</p>
+    <p>A card can be formatted so that the entire contents link to another page</p>
     <a class="ui card" href="http://www.dog.com">
       <div class="content">
         <div class="header">Cute Dog</div>
@@ -739,14 +696,12 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
           <span class="category">Animals</span>
         </div>
         <div class="description">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/paragraph.png">
+          <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
         </div>
       </div>
       <div class="extra content">
         <div class="right floated author">
-                    <img class="ui avatar image"
-                         src="/images/avatar/small/matt.jpg"> Matt
+          <img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Matt
         </div>
       </div>
     </a>
@@ -759,14 +714,12 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
           <span class="category">Animals</span>
         </div>
         <div class="description">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/paragraph.png">
+          <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
         </div>
       </div>
       <div class="extra content">
         <div class="right floated author">
-                    <img class="ui avatar image"
-                         src="/images/avatar/small/matt.jpg"> Matt
+          <img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Matt
         </div>
       </div>
     </div>
@@ -777,8 +730,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
     <p>Any content element can be floated left or right</p>
     <div class="ui ignored info message">
       <i class="info icon"></i>
-            You can include an arbitrary amount of metadata using your own class
-            conventions, all child elements will automatically be spaced
+      You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced
     </div>
     <div class="ui card">
       <div class="content">
@@ -788,14 +740,12 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
           <span class="category">Animals</span>
         </div>
         <div class="description">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/paragraph.png">
+          <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
         </div>
       </div>
       <div class="extra content">
         <div class="right floated author">
-                    <img class="ui avatar image"
-                         src="/images/avatar/small/matt.jpg"> Matt
+          <img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Matt
         </div>
       </div>
     </div>
@@ -806,25 +756,18 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
     <p>Any element inside a card can have its text alignment specified</p>
     <div class="ui ignored info message">
       <i class="info icon"></i>
-            You can include an arbitrary amount of metadata using your own class
-            conventions, all child elements will automatically be spaced
+      You can include an arbitrary amount of metadata using your own class conventions, all child elements will automatically be spaced
     </div>
     <div class="ui card">
       <div class="content">
-        <div class="header">Cute Dog</div>
-        <div class="meta">
-          <span class="right floated time">2 days ago</span>
-          <span class="category">Animals</span>
-        </div>
-        <div class="description">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/paragraph.png">
+        <div class="center aligned header">Jenny Hess</div>
+        <div class="center aligned description">
+          <p>Jenny is a student studying Media Management at the New School</p>
         </div>
       </div>
       <div class="extra content">
-        <div class="right floated author">
-                    <img class="ui avatar image"
-                         src="/images/avatar/small/matt.jpg"> Matt
+        <div class="center aligned author">
+          <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/jenny.jpg"> Jenny
         </div>
       </div>
     </div>
@@ -836,80 +779,67 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
     <div class="ui four cards">
       <a class="red card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="orange card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="yellow card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="olive card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="green card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="teal card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="blue card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="violet card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="purple card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="pink card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="brown card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="grey card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
       <a class="black card">
         <div class="image">
-                    <img class="ui wireframe image"
-                         src="/images/wireframe/white-image.png">
+          <img class="ui wireframe image" src="/images/wireframe/white-image.png">
         </div>
       </a>
     </div>
@@ -999,8 +929,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
     <div class="ui four cards">
       <div class="card">
         <div class="image">
-                        <img class="ui wireframe image"
-                             src="/images/wireframe/image.png">
+          <img class="ui wireframe image" src="/images/wireframe/image.png">
         </div>
         <div class="extra">
           Rating:
@@ -1009,8 +938,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
       </div>
       <div class="card">
         <div class="image">
-                        <img class="ui wireframe image"
-                             src="/images/wireframe/image.png">
+          <img class="ui wireframe image" src="/images/wireframe/image.png">
         </div>
         <div class="extra">
           Rating:
@@ -1019,8 +947,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
       </div>
       <div class="card">
         <div class="image">
-                        <img class="ui wireframe image"
-                             src="/images/wireframe/image.png">
+          <img class="ui wireframe image" src="/images/wireframe/image.png">
         </div>
         <div class="extra">
           Rating:
@@ -1029,8 +956,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
       </div>
       <div class="card">
         <div class="image">
-                        <img class="ui wireframe image"
-                             src="/images/wireframe/image.png">
+          <img class="ui wireframe image" src="/images/wireframe/image.png">
         </div>
         <div class="extra">
           Rating:
@@ -1039,8 +965,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
       </div>
       <div class="card">
         <div class="image">
-                        <img class="ui wireframe image"
-                             src="/images/wireframe/image.png">
+          <img class="ui wireframe image" src="/images/wireframe/image.png">
         </div>
         <div class="extra">
           Rating:
@@ -1049,8 +974,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
       </div>
       <div class="card">
         <div class="image">
-                        <img class="ui wireframe image"
-                             src="/images/wireframe/image.png">
+          <img class="ui wireframe image" src="/images/wireframe/image.png">
         </div>
         <div class="extra">
           Rating:
@@ -1059,8 +983,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
       </div>
       <div class="card">
         <div class="image">
-                        <img class="ui wireframe image"
-                             src="/images/wireframe/image.png">
+          <img class="ui wireframe image" src="/images/wireframe/image.png">
         </div>
         <div class="extra">
           Rating:
@@ -1069,8 +992,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
       </div>
       <div class="card">
         <div class="image">
-                        <img class="ui wireframe image"
-                             src="/images/wireframe/image.png">
+          <img class="ui wireframe image" src="/images/wireframe/image.png">
         </div>
         <div class="extra">
           Rating:
@@ -1082,12 +1004,8 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
 
   <div class="example">
     <h4 class="ui header">Stackable</h4>
-            <p>A group of cards can automatically stack rows to a single columns
-                on mobile devices</p>
-            <div class="ui ignored warning message">Resize your browser to a
-                smaller size to see the cards stack after reaching mobile
-                breakpoints
-            </div>
+    <p>A group of cards can automatically stack rows to a single columns on mobile devices</p>
+    <div class="ui ignored warning message">Resize your browser to a smaller size to see the cards stack after reaching mobile breakpoints</div>
     <div class="ui three stackable cards">
       <div class="card">
         <div class="image">
@@ -1125,10 +1043,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
   <div class="example">
     <h4 class="ui header">Doubling</h4>
     <p>A group of cards can double its column width for mobile</p>
-            <div class="ui ignored warning message">Resize your browser to a
-                smaller size to see the cards stack after reaching mobile
-                breakpoints
-            </div>
+    <div class="ui ignored warning message">Resize your browser to a smaller size to see the cards stack after reaching mobile breakpoints</div>
     <div class="ui six doubling cards">
       <div class="card">
         <div class="image">
@@ -1162,5 +1077,5 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
       </div>
     </div>
   </div>
-</div>
+
 </div>

@@ -55,7 +55,7 @@ semantic.validateForm.ready = function() {
       identifier  : 'skills',
       rules: [
         {
-          type   : 'minCount[1]',
+          type   : 'minCount[2]',
           prompt : 'Please select at least two skills'
         }
       ]
@@ -240,11 +240,24 @@ semantic.validateForm.ready = function() {
         field2: {
           rules: [
             {
-              type   : 'exactly[dog]',
+              type   : 'isExactly[dog]',
               prompt : '{name} is set to "{value}" that is totally wrong. It should be {ruleValue}'
             }
           ]
-        }
+        },
+        field3: {
+          rules: [
+            {
+              type   : 'isExactly[cat]',
+              prompt : function(value) {
+                if(value == 'dog') {
+                  return 'I told you to put cat, not dog!';
+                }
+                return 'That is not cat';
+              }
+            }
+          ]
+        },
       }
     })
   ;

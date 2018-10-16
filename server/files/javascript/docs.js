@@ -30,7 +30,6 @@ semantic.ready = function() {
     $document            = $(document),
     $sortableTables      = $('.sortable.table'),
     $sticky              = $('.ui.sticky'),
-    $tocSticky           = $('.toc .ui.sticky'),
 
     $themeDropdown       = $('.theme.dropdown'),
 
@@ -72,7 +71,7 @@ semantic.ready = function() {
     $example             = $('.example'),
     $popupExample        = $example.not('.no'),
     $shownExample        = $example.filter('.shown'),
-    $prerenderedExample  = $example.has('.ui.checkbox, .ui.dropdown, .ui.search, .ui.progress, .ui.rating, .ui.dimmer, .ui.embed'),
+    $prerenderedExample  = $example.has('.ui.checkbox, .ui.dropdown, .ui.search, .ui.progress, .ui.rating, .ui.dimmer, .ui.embed, .ui.placeholder'),
 
     $visibilityExample   = $example.filter('.visiblity').find('.overlay, .demo.segment, .items img'),
 
@@ -142,7 +141,7 @@ semantic.ready = function() {
               : $(this).children().eq(1)
           ;
           $('<i/>')
-            .addClass('icon code')
+            .addClass('fitted icon code')
             .insertBefore( $insertPoint )
           ;
         })
@@ -466,6 +465,7 @@ semantic.ready = function() {
       $sticky.sticky({
         silent: true,
         context: $container,
+        container: $('html'),
         offset: 30
       });
       $followMenu
@@ -491,6 +491,7 @@ semantic.ready = function() {
         .addClass('active')
       ;
       $('html, body')
+        .stop()
         .animate({
           scrollTop: position
         }, 500)
@@ -787,7 +788,6 @@ semantic.ready = function() {
           .on('click', handler.copyCode)
           .popup({
             variation    : 'inverted',
-            offset       : -12,
             distanceAway : 6
           })
         ;
@@ -1253,13 +1253,6 @@ semantic.ready = function() {
   // register less files
   window.less.registerStylesheets();
 
-  // create sidebar sticky
-  $tocSticky
-    .sticky({
-      silent: true,
-      context: $fullHeightContainer
-    })
-  ;
 
   // load page tabs
   if( $pageTabs.length > 0 ) {
@@ -1278,6 +1271,7 @@ semantic.ready = function() {
           $(this).find('> .rail .ui.sticky, .fixed .ui.sticky')
             .sticky({
               context: $container,
+              container: $('html'),
               silent: true,
               offset: 30
             })
@@ -1292,9 +1286,6 @@ semantic.ready = function() {
           });
         },
         onLoad : function() {
-          $tocSticky
-            .sticky('refresh')
-          ;
           $(this).find('.ui.sticky')
             .sticky('refresh')
           ;
@@ -1344,7 +1335,6 @@ semantic.ready = function() {
               hide: 100
             },
             position : 'top left',
-            offset   : -5,
             content  : 'View Source',
             target   : $(this).find('i.code')
           })
@@ -1456,6 +1446,22 @@ semantic.ready = function() {
   }
   else {
     detectAdBlock.onDetected(handler.showBeg);
+  }
+
+  if(window.location.hash) {
+    var
+      $element = $(window.location.hash),
+      position = $element.offset().top + 10
+    ;
+    $element
+      .addClass('active')
+    ;
+    $('html, body')
+      .stop()
+      .animate({
+        scrollTop: position
+      }, 500)
+    ;
   }
 
   handler.getMetadata();

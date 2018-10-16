@@ -15,6 +15,7 @@ themes      : ['Default', 'Duo', 'Pulsar']
 
 <%- @partial('header') %>
 <link rel="stylesheet/less" type="text/css" href="/src/definitions/elements/loader.less" />
+<script src="/javascript/loader.js"></script>
 
 <div class="main ui container">
 
@@ -68,7 +69,7 @@ themes      : ['Default', 'Duo', 'Pulsar']
     <h4 class="ui header">Active</h4>
     <p>A loader can be active or visible</p>
     <div class="ui ignored info message">
-      An active dimmer may not be clearly visible without using a <a href="/modules/dimmer.html">ui dimmer</a>
+      An active loader may not be clearly visible without using a <a href="/modules/dimmer.html">ui dimmer</a>
     </div>
     <div class="ui segment">
       <div class="ui active loader"></div>

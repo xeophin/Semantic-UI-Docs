@@ -6,7 +6,7 @@ elementType : 'element'
 standalone  : true
 
 title       : 'Flag'
-description : 'A flag is is used to represent a political state'
+description : 'A flag is used to represent a political state'
 type        : 'UI Element'
 
 ---
@@ -495,7 +495,13 @@ type        : 'UI Element'
       <tr>
         <td><i class="united kingdom flag"></i></td>
         <td>United Kingdom</td>
-        <td>gb</td>
+        <td>gb uk</td>
+        <td class="disabled"></td>
+      </tr>
+      <tr>
+        <td><i class="england flag"></i></td>
+        <td>England</td>
+        <td>gb eng</td>
         <td class="disabled"></td>
       </tr>
       <tr>
