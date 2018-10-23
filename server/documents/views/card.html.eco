@@ -508,7 +508,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
 
   <div class="example">
             <h4 class="ui header">Text Cards <div
-                    class="ui blue inline label">Tagi-Spezial</div>
+                    class="ui blue inline label">Tamedia-Spezial</div>
             <!-- /.ui blue inline label --></h4>
             <p>Text cards will use the serif font. They will also adapt to
                 being displayed in a text container.</p>
@@ -567,7 +567,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
 
         <div class="example">
             <h4 class="ui header">Infographic Cards <div
-                    class="ui blue inline label">Tagi-Spezial</div>
+                    class="ui blue inline label">Tamedia-Spezial</div>
                 <!-- /.ui blue inline label --></h4>
             <p>Infographic cards will use the infographic font. They will also
                 adapt to being displayed in a infographic container.</p>
@@ -847,7 +847,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
   <div class="example">
         <h4 class="ui header">Inverted
             <div
-                    class="ui blue label">Tagi-Spezial
+                    class="ui blue label">Tamedia-Spezial
             </div>
         </h4>
         <p>A card can specify a color</p>
@@ -906,7 +906,7 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
 
         <div class="example">
             <h4 class="ui header">Shadowed
-                <div class="ui blue label">Tagi-Spezial</div>
+                <div class="ui blue label">Tamedia-Spezial</div>
             </h4>
             <p>Since cards have a transparent white background, they can be
                 shadowed to show their borders.</p>

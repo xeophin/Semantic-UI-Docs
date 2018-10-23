@@ -312,7 +312,7 @@ themes      : ['Default', 'GitHub', 'Material']
   </div>
 
   <h2 class="ui dividing header">Visibility
-    <div class="ui blue horizontal label">Tagi-Spezial</div>
+    <div class="ui blue horizontal label">Tamedia-Spezial</div>
   </h2>
   <p>Additional classes have been added to provide better control over the
     visibility of objects.</p>
@@ -400,8 +400,8 @@ themes      : ['Default', 'GitHub', 'Material']
   </table>
 
   <h2 class="ui dividing header">
-    Tages-Anzeiger Typography
-    <div class="ui blue horizontal label">Tagi-Spezial</div>
+    Tamedia Typography
+    <div class="ui blue horizontal label">Tamedia-Spezial</div>
     <!-- /.ui blue horizontal label -->
   </h2>
   <!-- /.ui dividing header -->

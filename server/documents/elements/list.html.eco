@@ -486,7 +486,7 @@ themes      : ['Default']
     <div class="ui blue segment">
   <div class="example">
             <h4 class="ui header">Infographic
-                <div class="ui blue label">Tagi-Spezial</div>
+                <div class="ui blue label">Tamedia-Spezial</div>
             </h4>
             <p>A list can be displayed in the infographic font instead of the
                 caption font.</p>
@@ -504,7 +504,7 @@ themes      : ['Default']
 
         <div class="example">
             <h4 class="ui header">Text
-                <div class="ui blue label">Tagi-Spezial</div>
+                <div class="ui blue label">Tamedia-Spezial</div>
             </h4>
             <p>Within text containers, lists will use the serif font, unless
                 they

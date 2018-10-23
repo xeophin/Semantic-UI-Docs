@@ -204,7 +204,7 @@ themes      : ['Default', 'Classic', 'Bookish', 'Chubby', 'Material']
   <div class="example" data-use-content="true" data-class="sub">
     <h4 class="ui header">Meta Sub Headers <div
             class="ui blue inline label">
-      Tagi-Spezial</div></h4>
+      Tamedia-Spezial</div></h4>
     <p>Headers may contain meta data. Meta data behaves similar to sub
       headers.</p>
     <h2 class="ui header">
@@ -251,7 +251,7 @@ themes      : ['Default', 'Classic', 'Bookish', 'Chubby', 'Material']
 
   <div class="example">
     <h4 class="ui header">Infographic
-      <div class="ui blue label">Tagi-Spezial</div></h4>
+      <div class="ui blue label">Tamedia-Spezial</div></h4>
     <p>A header can be formatted to use the font for infographics instead of
     the standard serif font.</p>
     <img class="ui wireframe image" src="/images/wireframe/short-paragraph.png">

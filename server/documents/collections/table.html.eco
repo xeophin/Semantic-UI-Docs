@@ -573,7 +573,7 @@ themes      : ['Default', 'Basic', 'Classic', 'GitHub']
         <div class="example">
             <h4 class="ui header">Infographic Table
                 <div
-                        class="ui blue inline label">Tagi-Spezial
+                        class="ui blue inline label">Tamedia-Spezial
                 </div>
                 <!-- /.ui blue inline label -->
             </h4>
@@ -615,7 +615,7 @@ themes      : ['Default', 'Basic', 'Classic', 'GitHub']
   <div class="example">
             <h4 class="ui header">Text Table
                 <div
-                        class="ui blue inline label">Tagi-Spezial
+                        class="ui blue inline label">Tamedia-Spezial
                 </div>
                 <!-- /.ui blue inline label -->
             </h4>
@@ -693,7 +693,7 @@ themes      : ['Default', 'Basic', 'Classic', 'GitHub']
         <div class="example">
             <h4 class="ui header">Caption Table
                 <div
-                        class="ui blue inline label">Tagi-Spezial
+                        class="ui blue inline label">Tamedia-Spezial
                 </div>
                 <!-- /.ui blue inline label -->
             </h4>

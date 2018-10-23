@@ -152,7 +152,7 @@ themes      : ['default', 'GitHub']
 
   <div class="example">
     <h4 class="ui header">Vertical Segment Variations <div
-            class="ui blue label">Tagi-Spezial</div></h4>
+            class="ui blue label">Tamedia-Spezial</div></h4>
     <p>Vertical segments can have different padding levels, depending on
       your requirements.</p>
     <div class="ui vertical padded segment">
