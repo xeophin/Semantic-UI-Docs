@@ -507,11 +507,10 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
     <div class="ui blue segment">
 
   <div class="example">
-            <h4 class="ui header">Text Cards <div
+            <h4 class="ui header">Default Cards <div
                     class="ui blue inline label">Tamedia-Spezial</div>
             <!-- /.ui blue inline label --></h4>
-            <p>Text cards will use the serif font. They will also adapt to
-                being displayed in a text container.</p>
+            <p>Cards adapt to the container they are in.</p>
             <div class="ui text container">
                 <div class="ui card">
                     <div class="content">
@@ -535,7 +534,50 @@ themes      : ['Default', 'Basic', 'Classic', 'Instagram']
                     </div>
                 </div>
             </div>
-            <!-- /.ui text container -->
+            <div class='ui infographic segment'>
+              <h5 class='ui infographic header'>Infographic Segment</h5>
+              <div class="ui card">
+                <div class="content">
+                  <a class="header">Kristy</a>
+                  <div class="meta">
+                    <span class="date">Joined in 2013</span>
+                  </div>
+                  <div class="description">
+                    <p>Kristy is an art director living in New York. She is a thorougly
+                      enjoyable person.</p>
+                    <p>This is some additional text to show what is possible with this
+                      card variation.</p>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <a> <i class="user icon"></i> 22 Friends </a>
+                </div>
+              </div>
+            </div>
+            <div class='ui interactive segment'>
+              <h5 class='ui interactive header'>Interactive Segment</h5>
+              <div class="ui card">
+                <div class="content">
+                  <a class="header">Kristy</a>
+                  <div class="meta">
+                    <span class="date">Joined in 2013</span>
+                  </div>
+                  <div class="description">
+                    <p>Kristy is an art director living in New York. She is a
+                      thorougly enjoyable person.</p>
+                    <p>This is some additional text to show what is possible
+                      with this card variation.</p>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <a> <i class="user icon"></i> 22 Friends </a>
+                </div>
+              </div>
+            </div>
+    
+    
+    
+            
 
             <div class="ui small dividing header">As «ui text cards»</div>
             <!-- /.ui small dividing header -->

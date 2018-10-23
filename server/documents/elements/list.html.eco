@@ -484,32 +484,11 @@ themes      : ['Default']
 
 
     <div class="ui blue segment">
-  <div class="example">
-            <h4 class="ui header">Infographic
-                <div class="ui blue label">Tamedia-Spezial</div>
-            </h4>
-            <p>A list can be displayed in the infographic font instead of the
-                caption font.</p>
-            <div class="ui infographic list">
-                <div class="item">
-                    <div class="header">Infografik 1</div>
-                    Diese Grafik wird hier beschrieben
-                </div>
-                <div class="item">
-                    <div class="header">Eine zweite Infografik</div>
-                    Wird auf dieser Zeile beschrieben.
-                </div>
-            </div>
-        </div>
-
-        <div class="example">
-            <h4 class="ui header">Text
-                <div class="ui blue label">Tamedia-Spezial</div>
-            </h4>
-            <p>Within text containers, lists will use the serif font, unless
-                they
-                use the infographic or caption class.</p>
-            <div class="ui text container">
+        <div class='example'>
+            <h4 class='ui header'>Lists adapt to surrounding styles</h4>
+            
+            <div class='ui infographic segment'>
+                <p>Infographic Segment</p>
                 <div class="ui list">
                     <div class="item">
                         <div class="header">Infografik 1</div>
@@ -520,28 +499,37 @@ themes      : ['Default']
                         Wird auf dieser Zeile beschrieben.
                     </div>
                 </div>
-                <div class="ui caption list">
+            </div>
+
+            <div class='ui interactive segment'>
+                <p>Interactive Segment</p>
+                <div class="ui list">
                     <div class="item">
-                        <div class="header">Infografik 1</div>
                         Diese Grafik wird hier beschrieben
                     </div>
                     <div class="item">
-                        <div class="header">Eine zweite Infografik</div>
-                        Wird auf dieser Zeile beschrieben.
-                    </div>
-                </div>
-                <div class="ui infographic list">
-                    <div class="item">
-                        <div class="header">Infografik 1</div>
-                        Diese Grafik wird hier beschrieben
-                    </div>
-                    <div class="item">
-                        <div class="header">Eine zweite Infografik</div>
                         Wird auf dieser Zeile beschrieben.
                     </div>
                 </div>
             </div>
-            <!-- /.ui text container -->
+            
+        </div>
+        
+        <div class="example">
+            <h4 class="ui header">Infographic
+                <div class="ui blue label">Tamedia-Spezial</div>
+            </h4>
+            <p>A list can be forced to be displayed in the infographic font.</p>
+            <div class="ui infographic list">
+                <div class="item">
+                    <div class="header">Infografik 1</div>
+                    Diese Grafik wird hier beschrieben
+                </div>
+                <div class="item">
+                    <div class="header">Eine zweite Infografik</div>
+                    Wird auf dieser Zeile beschrieben.
+                </div>
+            </div>
         </div>
 
     </div>

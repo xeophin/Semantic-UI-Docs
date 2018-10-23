@@ -53,3 +53,12 @@
 <% else: %>
 <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
 <% end %>
+
+<link 
+        rel='alternate stylesheet' 
+        title='Tages-Anzeiger' 
+        href='https://interaktiv.tagesanzeiger.ch/static/themes/tagesanzeiger.css'>
+<link
+        rel='alternate stylesheet'
+        title='Das Magazin'
+        href='https://interaktiv.tagesanzeiger.ch/static/themes/dasmagazin.css'>
