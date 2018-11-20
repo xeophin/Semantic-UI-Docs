@@ -62,3 +62,19 @@
         rel='alternate stylesheet'
         title='Das Magazin'
         href='https://interaktiv.tagesanzeiger.ch/static/themes/dasmagazin.css'>
+<link
+        rel='alternate stylesheet'
+        title='Tribune de Genève'
+        href='https://interaktiv.tagesanzeiger.ch/static/themes/tdg.css'>
+<link
+        rel='alternate stylesheet'
+        title='20 Minuten'
+        href='https://interaktiv.tagesanzeiger.ch/static/themes/20min.css'>
+<link
+        rel='alternate stylesheet'
+        title='24 Heures'
+        href='https://interaktiv.tagesanzeiger.ch/static/themes/24heures.css'>
+<link
+        rel='alternate stylesheet'
+        title='Fresh'
+        href='https://interaktiv.tagesanzeiger.ch/static/themes/fresh.css'>
